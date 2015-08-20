@@ -15,8 +15,7 @@
 # This piece of code takes the XFull data and labels the columns according to the 'features' data.
 #
 # 5) LABEL Y VALUES
-# This piece of code takes the YFull data and makes a factor of it, with the levels as specified in 
-# the activity_labels data
+# This piece of code takes the YFull data and makes a factor of it, with the levels as specified in the activity_labels data
 #
 # 6) MERGE INTO 1 DATASET // LABEL COL NAME Y
 # This piece of code merges the XFull, YFull and SubjectFull data into 1 dataset.
@@ -28,8 +27,7 @@
 # In other words, Data_Final is a dataset with only the measures on the means and std's + the Y-labels ('Actitivy') and Subject_ID.
 #
 # 8) CALCULATE MEAN FOR EVERY COMBINATION OF SUBJECT AND ACTIVITY
-# Here we create a list (called 'means') which contains the mean of each feature of Data_Final, 
-# for every combination of subject and activity. 
+# Here we create a list (called 'means') which contains the mean of each feature of Data_Final, for every combination of subject and activity. 
 # In total, there are 30 subjects and 6 Acitivy's. Thus, this list has 180 elements. 
 #
 # 9) RESTRUCTURE LIST INTO TIDY DATASET
